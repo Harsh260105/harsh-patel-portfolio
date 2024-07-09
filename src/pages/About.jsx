@@ -15,7 +15,7 @@ const About = () => {
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>Software Engineer based in India, education through charusat and hand-on learning and bauilding projects.
+        <p>“As a prospective Computer Engineer based in India, I am currently pursuing my education at Charusat. My journey has been enriched by hands-on learning experiences, and my passion for building projects fuels my drive. With each line of code and every circuit connection, I am shaping my path toward innovation and impact.” 🌟
         </p>
       </div>
 
@@ -43,7 +43,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience</h3>
           <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            text here
+          “While my industry experience is still in its nascent stages, my internships have been pivotal in providing me with exposure and essential skills. These practical encounters have equipped me with the tools needed to navigate the professional landscape. As I continue my journey, I remain committed to learning and contributing effectively.” 
           </p>
           </div>
 
