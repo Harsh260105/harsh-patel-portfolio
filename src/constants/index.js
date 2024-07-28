@@ -133,7 +133,7 @@ export const socialLinks = [
     {
         name: 'Contact',
         iconUrl: contact,
-        link: '9723247551',
+        link: 'tel:+919723247551',
     },
     {
         name: 'GitHub',

@@ -4,7 +4,9 @@ import 'react-vertical-timeline-component/style.min.css';
 import React from 'react';
 import { skills } from '../constants';
 import { experiences } from '../constants';
+import { socialLinks } from '../constants';
 import CTA from '../components/CTA';
+import Resume from '../components/Resume';
 
 
 const About = () => {
@@ -103,8 +105,29 @@ const About = () => {
         </div>
       </div>
 
-      <hr className='border-slate-200'/>
+      <div className='py-10 flex flex-col'>
+        <h3 className='subhead-text'>My Socials</h3>
 
+        <div className='mt-16 flex flex-wrap gap-12'>
+          {socialLinks.map((Socials) => (
+
+            <div className='block-container w-20 h-20'>
+              <div className='btn-back rounded-xl'/>
+              <div className='btn-front rounded-xl flex justify-center items-center'>
+                <img onClick={() => window.open(Socials.link, '_blank')}
+                  src = {Socials.iconUrl}
+                  alt= {Socials.name}
+                  className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <hr className='border-slate-200'/>
+      
+      <Resume />
       <CTA />
 
     </section>
