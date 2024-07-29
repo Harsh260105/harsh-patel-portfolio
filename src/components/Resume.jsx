@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/Resume/HARSH-PATEL-Resume.pdf";
+import "src/assets/Resume/HARSH-PATEL-Resume.pdf";
 
 const Resume = () => {
     return (
