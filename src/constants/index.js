@@ -29,7 +29,7 @@ import {
     python,
     java,
     news,
-    instagram
+    instagram,
 } from "../assets/icons";
 
 export const skills = [
