@@ -28,7 +28,8 @@ import {
     cpp,
     python,
     java,
-    news
+    news,
+    instagram
 } from "../assets/icons";
 
 export const skills = [
@@ -144,6 +145,11 @@ export const socialLinks = [
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/harsh-patel-b85303256/',
+    },
+    {
+        name: 'Instagram',
+        iconUrl: instagram,
+        link: 'https://www.instagram.com/harsh_patel_0265/',
     }
 ];
 

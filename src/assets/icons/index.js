@@ -31,6 +31,7 @@ import cpp from './cpp.svg'
 import python from './python.svg'
 import java from './java.svg'
 import news from './news.svg'
+import instagram from './instagram.svg'
 
 export {
     css,
@@ -65,5 +66,6 @@ export {
     cpp,
     python,
     java,
-    news
+    news,
+    instagram
 }

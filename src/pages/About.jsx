@@ -6,7 +6,7 @@ import { skills } from '../constants';
 import { experiences } from '../constants';
 import { socialLinks } from '../constants';
 import CTA from '../components/CTA';
-
+import Resume from "../../HARSH-PATEL-Resume.pdf";
 
 const About = () => {
   return (
@@ -18,6 +18,7 @@ const About = () => {
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>“As a prospective Computer Engineer based in India, I am currently pursuing my education at Charusat. My journey has been enriched by hands-on learning experiences, and my passion for building projects fuels my drive. With each line of code and every circuit connection, I am shaping my path toward innovation and impact.” 🌟
         </p>
+        <a className='btn mt-4' style={{width: '150px'}} href={Resume} target="_blank" rel="noopener noreferrer" >Get My Resume</a>
       </div>
 
       <div className='py-10 flex flex-col'>
