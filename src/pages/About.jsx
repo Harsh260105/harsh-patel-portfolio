@@ -6,7 +6,6 @@ import { skills } from '../constants';
 import { experiences } from '../constants';
 import { socialLinks } from '../constants';
 import CTA from '../components/CTA';
-import Resume from '../components/Resume';
 
 
 const About = () => {
@@ -127,7 +126,6 @@ const About = () => {
 
       <hr className='border-slate-200'/>
       
-      <Resume />
       <CTA />
 
     </section>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import Resume from "../../HARSH-PATEL-Resume.pdf"
 
 const Navbar = () => {
   return (
@@ -16,6 +17,9 @@ const Navbar = () => {
             <NavLink to="/projects" className={({ isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
                 Projects
             </NavLink>
+            <a href={Resume} target="_blank" rel="noopener noreferrer" className="text-black">
+                Resume
+            </a>
         </nav>
 
     </header>
