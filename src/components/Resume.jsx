@@ -7,7 +7,7 @@ const Resume = () => {
                 Take a look at my resume!
             </p>
             <a
-                href={"/HARSH-PATEL-Resume.pdf"}
+                href={"HARSH-PATEL-Resume.pdf"}
                 download={"HARSH-PATEL-Resume.pdf"}
                 className="btn"
             > Download </a>
