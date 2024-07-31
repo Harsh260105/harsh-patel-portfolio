@@ -180,7 +180,7 @@ export const projects = [
         theme: 'btn-back-pink',
         name: 'Event Management Site',
         description: 'A web application that allows users to create and manage events. The app uses React.js for the frontend.',
-        link: 'https://github.com/Harsh260105/Event-Manager-',
+        link: 'https://github.com/Harsh260105/Harmony-events',
     },
     {
         iconUrl: estate,
