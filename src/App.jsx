@@ -9,7 +9,8 @@ import BackToTop from "./components/BackToTop";
 
 const App = () => {
   return (
-    <Router basename="/harsh-patel-portfolio">
+    <Router>
+      {/*  basename="/harsh-patel-portfolio" */}
       <main className="bg-slate-100 dark:bg-gray-900 min-h-screen">
         <ThemeToggle />
         <Navbar />
