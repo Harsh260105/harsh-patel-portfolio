@@ -17,6 +17,7 @@
     "@react-spring/three": "^9.7.3",
     "@react-three/drei": "^9.105.2",
     "@react-three/fiber": "^8.16.1",
+    "@vercel/analytics": "^1.5.0",
     "framer-motion": "^12.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
