@@ -30,37 +30,55 @@ import {
     java,
     news,
     instagram,
+    sql,
+    aws,
+    gcp,
+    postman,
+    supabase,
 } from "../assets/icons";
 
 export const skills = [
+    // Languages
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
+        imageUrl: c,
+        name: "C",
+        type: "Language",
     },
     {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
+        imageUrl: cpp,
+        name: "C++",
+        type: "Language",
     },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Language",
+    },
+    {
+        imageUrl: sql,
+        name: "SQL",
+        type: "Language",
+    },
+
+    // Frontend
     {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
     },
     {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    },
+    {
         imageUrl: react,
-        name: "React",
+        name: "React.js",
         type: "Frontend",
     },
     {
-        imageUrl: nodejs,
-        name: "nodejs",
-        type: "Frontend",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
+        imageUrl: nextjs,
+        name: "Next.js",
         type: "Frontend",
     },
     {
@@ -69,34 +87,59 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: c,
-        name: "c",
-        type: "frontend",
+        imageUrl: redux,
+        name: "Redux",
+        type: "Frontend",
+    },
+
+    // Backend & Databases
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
     },
     {
-        imageUrl: cpp,
-        name: "c++",
-        type: "frontend",
+        imageUrl: express,
+        name: "Express.js",
+        type: "Backend",
     },
     {
-        imageUrl: python,
-        name: "python",
-        type: "frontend",
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Backend",
     },
     {
-        imageUrl: java,
-        name: "java",
-        type: "frontend",
+        imageUrl: supabase,
+        name: "Supabase",
+        type: "Backend",
     },
+
+    // Tools and Technologies
     {
         imageUrl: git,
         name: "Git",
-        type: "Version Control",
+        type: "Tools",
     },
     {
         imageUrl: github,
         name: "GitHub",
-        type: "Version Control",
+        type: "Tools",
+    },
+    // You'll need to add these icons in assets
+    {
+        imageUrl: aws,
+        name: "AWS",
+        type: "Tools",
+    },
+    {
+        imageUrl: gcp,
+        name: "GCP",
+        type: "Tools",
+    },
+    {
+        imageUrl: postman,
+        name: "Postman",
+        type: "Tools",
     },
 ];
 
@@ -127,7 +170,7 @@ export const experiences = [
             "Gained practical web development skills and improved my ability to collaborate effectively in a remote work environment.",
         ],
     },
-    
+
 ];
 
 export const socialLinks = [
@@ -157,36 +200,70 @@ export const projects = [
     {
         iconUrl: summiz,
         theme: 'btn-back-red',
-        name: 'PDF Visionary master',
-        description: 'Developed a python script that uses the PyMuPDF library to extract text from PDF files and summarize the content using the Hugging Face Transformers library.',
-        link: 'https://github.com/Harsh260105/PDF-Visionary-master',
+        name: 'FinWise',
+        techStack: "Next.js, Supabase, Prisma ORM, Gemini API, Custom AI Models, Clerk, Node.js, Express.js, MongoDB",
+        description: [
+            "Developed 'FinWise,' a financial wellness platform with expense tracking and budgeting tools.",
+            "Used Next.js for the frontend and Supabase with Prisma ORM for secure data management.",
+            "Integrated Gemini API and AI models for smart financial recommendations.",
+            "Implemented Clerk for authentication and secure payment options."
+        ]
+        ,
+        link: 'https://github.com/Harsh260105/FinWise',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'AI World',
-        description: 'Built a web application that helps user to get a effective AI tool to help them in their according work.',
-        link: 'https://github.com/Harsh260105/AI-World',
+        name: 'Urban Axis',
+        techStack: "MERN Stack (MongoDB, Express.js, React.js, Node.js), React Router, Context API, Tailwind CSS, JWT, Cloudinary, Socket.io",
+        description: [
+            "Built a MERN stack real estate platform for property search and management.",
+            "Added authentication, media storage with Cloudinary, and interactive maps.",
+            "Integrated real-time chat using Socket.io for user communication.",
+            "Implemented AI-driven property recommendations."
+        ]
+        ,
+        link: 'https://github.com/Harsh260105/Urban-Axis',
     },
     {
         iconUrl: news,
         theme: 'btn-back-blue',
-        name: 'News App',
-        description: 'Developed a web application that allows users to search for news articles and save them for later reading. The app uses the News API to fetch news articles.',
-        link: 'https://github.com/Harsh260105/A-Terminal-Based-News-App',
+        name: 'Engineers Depot',
+        techStack: "Node.js, Express.js, MongoDB, React.js, Tailwind CSS, JWT, bcrypt, Cloudinary",
+        description: [
+            "Developed a job portal for engineers to find and apply for jobs.",
+            "Implemented JWT-based authentication and bcrypt for security.",
+            "Used Cloudinary for resume uploads and media handling.",
+            "Enabled job recommendations and application tracking."
+        ]
+        ,
+        link: 'https://github.com/Harsh260105/Engineers-Depot',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Event Management Site',
-        description: 'A web application that allows users to create and manage events. The app uses React.js for the frontend.',
-        link: 'https://github.com/Harsh260105/Harmony-events',
+        name: 'Gemini Clone',
+        techStack: "React.js, Gemini API, Context API, Tailwind CSS",
+        description: [
+            "Developed a Gemini clone using the Gemini API, replicating key AI features.",
+            "Implemented contextual search and conversational AI functionality.",
+            "Designed a clean, responsive UI with modern web development practices.",
+            "Utilized React.js and Context API for efficient state management."
+        ]
+        ,
+        link: 'https://github.com/Harsh260105/Gemini-clone',
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-yellow',
-        name: 'A Lite Message Encoder',
-        description: 'Developed a web application that allows users to encode and decode messages using a simple algorithm.',
-        link: 'https://github.com/Harsh260105/A-Lite-Message-Encoder',
-    }
+    // {
+    //     iconUrl: estate,
+    //     theme: 'btn-back-yellow',
+    //     name: 'A Lite Message Encoder',
+    //     techStack: "HTML, CSS, JavaScript, Bootstrap",
+    //     description: [
+    //         'Web application for encoding and decoding messages',
+    //         'Uses a simple yet effective encryption algorithm',
+    //         'Provides user-friendly interface for message transformation',
+    //         'Ensures secure communication through encoding'
+    //     ],
+    //     link: 'https://github.com/Harsh260105/A-Lite-Message-Encoder',
+    // }
 ];

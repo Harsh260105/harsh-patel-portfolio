@@ -32,6 +32,11 @@ import python from './python.svg'
 import java from './java.svg'
 import news from './news.svg'
 import instagram from './instagram.svg'
+import sql from './sql.svg'
+import aws from './aws.svg'
+import gcp from './gcp.svg'
+import postman from './postman.svg'
+import supabase from './supabase.svg'
 
 export {
     css,
@@ -67,5 +72,10 @@ export {
     python,
     java,
     news,
-    instagram
+    instagram,
+    sql,
+    aws,
+    gcp,
+    postman,
+    supabase
 }

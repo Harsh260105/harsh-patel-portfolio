@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://Harsh260105.github.io/harsh-patel-portfolio/",
+  "homepage": "https://Harsh260105.github.io/harsh-patel-portfolio/",
   "name": "harsh-patel-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -17,6 +17,7 @@
     "@react-spring/three": "^9.7.3",
     "@react-three/drei": "^9.105.2",
     "@react-three/fiber": "^8.16.1",
+    "framer-motion": "^12.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
