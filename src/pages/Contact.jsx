@@ -83,7 +83,7 @@ const Contact = () => {
             className="w-full flex flex-col gap-7 mt-14"
             onSubmit={handleSubmit}
           >
-            <label className="text-black-500 font-semibold">
+            <label className="text-black-500 dark:text-gray-300 font-semibold">
               Name
               <input
                 type="text"
@@ -98,7 +98,7 @@ const Contact = () => {
               />
             </label>
 
-            <label className="text-black-500 font-semibold">
+            <label className="text-black-500 dark:text-gray-300 font-semibold">
               Email
               <input
                 type="email"
@@ -113,7 +113,7 @@ const Contact = () => {
               />
             </label>
 
-            <label className="text-black-500 font-semibold">
+            <label className="text-black-500 dark:text-gray-300 font-semibold">
               Your Message
               <textarea
                 name="message"

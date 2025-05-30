@@ -5,6 +5,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 import React from "react";
+import ReactTypingEffect from "react-typing-effect";
 import { skills } from "../constants";
 import { experiences } from "../constants";
 import { socialLinks } from "../constants";
@@ -25,20 +26,30 @@ const About = () => {
   return (
     <PageTransition>
       <section className="max-container">
+        {" "}
         <h1 className="head-text">
           Hello, I'm{" "}
           <span className="blue-gradient_text font-semibold drop-shadow">
-            Harsh
+            <ReactTypingEffect
+              text={["Harsh", "a Developer"]}
+              speed={120}
+              eraseSpeed={100}
+              typingDelay={500}
+              eraseDelay={1500}
+              cursorRenderer={(cursor) => <span>{cursor}</span>}
+              displayTextRenderer={(text) => {
+                return <span>{text}</span>;
+              }}
+            />
           </span>
         </h1>
-
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
             “As a prospective Computer Engineer based in India, I am currently
             pursuing my education at Charusat. My journey has been enriched by
             hands-on learning experiences, and my passion for building projects
-            fuels my drive. With each line of code and every circuit connection, I
-            am shaping my path toward innovation and impact.” 🌟
+            fuels my drive. With each line of code and every circuit connection,
+            I am shaping my path toward innovation and impact.” 🌟
           </p>
           <a
             className="btn mt-4"
@@ -50,7 +61,6 @@ const About = () => {
             Get My Resume
           </a>
         </div>
-
         <div className="py-10 flex flex-col">
           <h3 className="subhead-text">My Skills</h3>
 
@@ -78,7 +88,6 @@ const About = () => {
             ))}
           </div>
         </div>
-
         <div className="py-16">
           <h3 className="subhead-text">Work Experience</h3>
           <div className="mt-5 flex flex-col gap-3 text-slate-500">
@@ -87,8 +96,8 @@ const About = () => {
               internships have been pivotal in providing me with exposure and
               essential skills. These practical encounters have equipped me with
               the tools needed to navigate the professional landscape. As I
-              continue my journey, I remain committed to learning and contributing
-              effectively.”
+              continue my journey, I remain committed to learning and
+              contributing effectively.”
             </p>
           </div>
 
@@ -103,7 +112,7 @@ const About = () => {
                       <img
                         src={experience.icon}
                         alt={experience.company_name}
-                        className="w-[60%] h-[60%] object-contain"
+                        className="w-[80%] h-[80%] object-contain"
                       />
                     </div>
                   }
@@ -120,7 +129,10 @@ const About = () => {
                       {experience.title}
                     </h3>
 
-                    <p className="text-black-500 font-base" stye={{ margin: 0 }}>
+                    <p
+                      className="text-black-500 font-base"
+                      stye={{ margin: 0 }}
+                    >
                       {experience.company_name}
                     </p>
                   </div>
@@ -140,7 +152,6 @@ const About = () => {
             </VerticalTimeline>
           </div>
         </div>
-
         <div className="py-10 flex flex-col">
           <h3 className="subhead-text">My Socials</h3>
 
@@ -160,9 +171,7 @@ const About = () => {
             ))}
           </div>
         </div>
-
         <hr className="border-slate-200" />
-
         <CTA />
       </section>
     </PageTransition>

@@ -16,7 +16,7 @@ const Projects = () => {
           </span>
         </h1>
 
-        <div className="mt-5 flex flex-col gap-3 text-slate-500">
+        <div className="mt-5 flex flex-col gap-3 text-slate-500 dark:text-slate-400">
           <p>
             Over this 2 years, I've undertaken many projects, but the ones
             dearest to me are listed here. All are open-source, and should you
@@ -44,18 +44,18 @@ const Projects = () => {
               </div>
 
               <div className="mt-5 flex flex-col">
-                <h4 className="text-2xl font-poppins font-semibold">
+                <h4 className="text-2xl font-poppins font-semibold dark:text-white">
                   {project.name}
                 </h4>
                 <div className="mt-3 mb-3">
-                  <h5 className="text-base font-poppins font-semibold text-slate-600">
+                  <h5 className="text-base font-poppins font-semibold text-slate-600 dark:text-slate-300">
                     Tech Stack:
                   </h5>
-                  <p className="text-sm text-slate-500 mt-1">
+                  <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
                     {project.techStack}
                   </p>
                 </div>
-                <ul className="mt-2 text-slate-500 list-disc pl-6 space-y-2">
+                <ul className="mt-2 text-slate-500 dark:text-slate-400 list-disc pl-6 space-y-2">
                   {project.description.map((point, index) => (
                     <li key={index} className="leading-relaxed">
                       {point}
@@ -82,7 +82,7 @@ const Projects = () => {
           ))}
         </div>
 
-        <hr className="border-slate-200" />
+        <hr className="border-slate-200 dark:border-gray-700" />
 
         <CTA />
       </section>
