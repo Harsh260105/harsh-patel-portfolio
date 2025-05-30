@@ -5,13 +5,13 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 import React from "react";
-import ReactTypingEffect from "react-typing-effect";
 import { skills } from "../constants";
 import { experiences } from "../constants";
 import { socialLinks } from "../constants";
 import CTA from "../components/CTA";
 import Resume from "../../HARSH-PATEL-Resume.pdf";
 import PageTransition from "../components/PageTransition.jsx";
+import ReactTypingEffect from "react-typing-effect";
 
 const About = () => {
   // Group skills by type
@@ -26,7 +26,6 @@ const About = () => {
   return (
     <PageTransition>
       <section className="max-container">
-        {" "}
         <h1 className="head-text">
           Hello, I'm{" "}
           <span className="blue-gradient_text font-semibold drop-shadow">
@@ -43,6 +42,7 @@ const About = () => {
             />
           </span>
         </h1>
+
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
             “As a prospective Computer Engineer based in India, I am currently
@@ -61,6 +61,7 @@ const About = () => {
             Get My Resume
           </a>
         </div>
+
         <div className="py-10 flex flex-col">
           <h3 className="subhead-text">My Skills</h3>
 
@@ -88,6 +89,7 @@ const About = () => {
             ))}
           </div>
         </div>
+
         <div className="py-16">
           <h3 className="subhead-text">Work Experience</h3>
           <div className="mt-5 flex flex-col gap-3 text-slate-500">
@@ -152,6 +154,7 @@ const About = () => {
             </VerticalTimeline>
           </div>
         </div>
+
         <div className="py-10 flex flex-col">
           <h3 className="subhead-text">My Socials</h3>
 
@@ -171,7 +174,9 @@ const About = () => {
             ))}
           </div>
         </div>
+
         <hr className="border-slate-200" />
+
         <CTA />
       </section>
     </PageTransition>

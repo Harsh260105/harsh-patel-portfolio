@@ -149,7 +149,7 @@ export const experiences = [
         title: "Full stack Web Development",
         company_name: "TLK Industries PVT LTD",
         icon: tlk,
-        iconBg: "#808080",
+        iconBg: "#b7e4c7",
         date: "May 2025 - June 2025",
         points: [
             "Worked on end-to-end development of real-world web applications, handling both frontend (React.js, NextJs) and backend (Node.js, MongoDB, Supabase, PosgreSQL, SQL Lite) tasks.", "Involved in feature development, API integration, and performance optimization across the full stack.",
