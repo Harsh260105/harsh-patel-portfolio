@@ -37,6 +37,7 @@ import aws from './aws.svg'
 import gcp from './gcp.svg'
 import postman from './postman.svg'
 import supabase from './supabase.svg'
+import tlk from './tlk.png'
 
 export {
     css,
@@ -77,5 +78,6 @@ export {
     aws,
     gcp,
     postman,
-    supabase
+    supabase,
+    tlk
 }
