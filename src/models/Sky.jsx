@@ -17,8 +17,14 @@ const Sky = ({ isRotating }) => {
       }
     })
 
+    // Check if we're using milkyway model
+    const isMilkyway = skyScene.includes('milkyway');
+
     return (
-    <mesh ref = {skyRef}>
+    <mesh ref = {skyRef} 
+      position={isMilkyway ? [0, -5, 0] : [0, 0, 0]}
+      scale={isMilkyway ? 100 : 1}
+    >
         <primitive object={sky.scene} />
     </mesh>
   )
