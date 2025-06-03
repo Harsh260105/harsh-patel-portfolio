@@ -30,11 +30,17 @@ const About = () => {
           Hello, I'm{" "}
           <span className="blue-gradient_text font-semibold drop-shadow">
             <ReactTypingEffect
-              text={["Harsh", "a Developer"]}
-              speed={120}
+              text={[
+                "Harsh",
+                "a Developer",
+                "a Computer Engineer",
+                "a Tech Enthusiast",
+                "a Learner",
+              ]}
+              speed={125}
               eraseSpeed={100}
               typingDelay={500}
-              eraseDelay={1500}
+              eraseDelay={1300}
               cursorRenderer={(cursor) => <span>{cursor}</span>}
               displayTextRenderer={(text) => {
                 return <span>{text}</span>;
@@ -45,11 +51,17 @@ const About = () => {
 
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            “As a prospective Computer Engineer based in India, I am currently
-            pursuing my education at Charusat. My journey has been enriched by
-            hands-on learning experiences, and my passion for building projects
-            fuels my drive. With each line of code and every circuit connection,
-            I am shaping my path toward innovation and impact.” 🌟
+            “I'm a Computer Engineering student at Charusat who loves turning
+            ideas into impactful digital experiences. Building projects from the
+            ground up — whether it's a platform, a tool, or a small feature — is
+            where I learn best. Through internships, team projects, and
+            technical events, I've had the chance to apply what I learn in real
+            scenarios and grow with every challenge. I'm especially drawn to how
+            the cloud and DevOps bring everything together — helping developers
+            build smarter, ship faster, and scale with confidence. What drives
+            me is the process: learning something new, building with it, and
+            seeing it make a difference. Tech is my playground — and I'm here to
+            keep building, exploring, and evolving. ” 🌟
           </p>
           <a
             className="btn mt-4"
