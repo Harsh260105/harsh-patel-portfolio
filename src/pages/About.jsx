@@ -144,8 +144,8 @@ const About = () => {
                     </h3>
 
                     <p
-                      className="text-black-500 font-base"
-                      stye={{ margin: 0 }}
+                      className="text-black-500 dark:text-gray-300 font-base"
+                      style={{ margin: 0 }}
                     >
                       {experience.company_name}
                     </p>
@@ -155,7 +155,7 @@ const About = () => {
                     {experience.points.map((point, index) => (
                       <li
                         key={`experience-point-${index}`}
-                        className="text-black-500-50 font-normal pl-1 text-sm"
+                        className="text-black-500-50 dark:text-gray-300 font-normal pl-1 text-sm"
                       >
                         {point}
                       </li>

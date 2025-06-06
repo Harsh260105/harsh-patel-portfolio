@@ -147,6 +147,11 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 16px 0 40px #e4e4e4;
 }
 
+/* Reduce shadow intensity in dark mode */
+:root.dark .block-container .btn-back {
+  box-shadow: 16px 0 30px rgba(76, 108, 153, 0.3);
+}
+
 .block-container .btn-back-red {
   background: linear-gradient(135deg, #ff4b1f -20%, #ff9068 120%);
 }
@@ -190,12 +195,34 @@ body:has(.card[data-color="green"]:hover) {
   overflow: hidden;
 }
 
+/* Frosted glass effect for dark mode */
+:root.dark .block-container .btn-front {
+  background-color: rgba(55, 65, 81, 0.3);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  /* border: 0.25px solid rgba(255, 255, 255, 0.04); */
+}
+
 .block-container:hover > .btn-back {
   transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
 }
 
 .block-container:hover > .btn-front {
   transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
+}
+
+/* Enhanced hover effect for dark mode */
+:root.dark .block-container:hover > .btn-back {
+  transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
+  box-shadow: 16px 0 30px rgba(76, 108, 153, 0.4);
+}
+
+:root.dark .block-container:hover > .btn-front {
+  transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
+  background-color: rgba(55, 65, 81, 0.4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.15);
 }
 
 /* Neo Brutalism */
@@ -226,6 +253,35 @@ body:has(.card[data-color="green"]:hover) {
   opacity: 0.8;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+/* Dark mode styles for timeline */
+:root.dark .vertical-timeline-element-content {
+  background: rgba(30, 41, 59, 0.8);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+:root.dark .vertical-timeline-element-content-arrow {
+  border-right: 7px solid rgba(30, 41, 59, 0.8);
+}
+
+:root.dark .vertical-timeline-element h3 {
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+
+:root.dark .vertical-timeline-element p {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+:root.dark .vertical-timeline-element li {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+:root.dark .vertical-timeline::before {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 @media only screen and (min-width: 1170px) {
