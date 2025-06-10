@@ -17,7 +17,6 @@ const Sky = ({ isRotating }) => {
       }
     })
 
-    // Check if we're using milkyway model
     const isMilkyway = skyScene.includes('milkyway');
 
     return (
