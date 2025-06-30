@@ -240,12 +240,12 @@ export const projects = [
         iconUrl: news,
         theme: 'btn-back-blue',
         name: 'Engineers Depot',
-        techStack: "Node.js, Express.js, MongoDB, React.js, Tailwind CSS, JWT, bcrypt, Cloudinary",
+        techStack: " MongoDB, Express.js, React.js, Node.js with JWT Auth, Tailwind CSS, Cloudinary",
         description: [
-            "Developed a job portal for engineers to find and apply for jobs.",
-            "Implemented JWT-based authentication and bcrypt for security.",
-            "Used Cloudinary for resume uploads and media handling.",
-            "Enabled job recommendations and application tracking."
+            "A full-stack job portal enabling real-time connection between recruiters and job seekers.",
+            "Implemented secure user authentication using JWT and cookies, with separate access for users and admins.",
+            "Integrated dynamic job filters, application tracking, and an admin dashboard for managing listings and users.",
+            "Deployed on Vercel for accessibility."
         ]
         ,
         link: 'https://github.com/Harsh260105/Engineers-Depot',
@@ -253,16 +253,16 @@ export const projects = [
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Gemini Clone',
-        techStack: "React.js, Gemini API, Context API, Tailwind CSS",
+        name: 'ZapQuiz',
+        techStack: "Node.js, Express, PostgreSQL, Prisma, Redis, Google Gemini API, Docker, Render",
         description: [
-            "Developed a Gemini clone using the Gemini API, replicating key AI features.",
-            "Implemented contextual search and conversational AI functionality.",
-            "Designed a clean, responsive UI with modern web development practices.",
-            "Utilized React.js and Context API for efficient state management."
+            "Built an AI-powered quiz generation and evaluation microservice using Node.js and Express.",
+            "Integrated Google Gemini API for personalized quiz creation and answer evaluation.",
+            "Implemented JWT-based auth, Redis caching, email verification, and detailed user analytics.",
+            "Deployed on Render with Docker, PostgreSQL, and Prisma for scalable and secure performance."
         ]
         ,
-        link: 'https://github.com/Harsh260105/Gemini-clone',
+        link: 'https://github.com/Harsh260105/AiQuizzer',
     },
     // {
     //     iconUrl: estate,

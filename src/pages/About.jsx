@@ -187,7 +187,7 @@ const About = () => {
           </div>
         </div>
 
-        <hr className="border-slate-200" />
+        <hr className="border-slate-300" />
 
         <CTA />
       </section>

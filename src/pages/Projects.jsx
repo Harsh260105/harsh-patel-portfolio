@@ -82,7 +82,7 @@ const Projects = () => {
           ))}
         </div>
 
-        <hr className="border-slate-200 dark:border-gray-700" />
+        <hr className="border-slate-300 dark:border-gray-700" />
 
         <CTA />
       </section>
