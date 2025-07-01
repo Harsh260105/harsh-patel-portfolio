@@ -37,7 +37,17 @@ import aws from './aws.svg'
 import gcp from './gcp.svg'
 import postman from './postman.svg'
 import supabase from './supabase.svg'
-import tlk from './tlk.png'
+import house from './house.png'
+import stats from './stats.png'
+import jobseeker from './job-seeker.png'
+import jobseekerW from './job-seeker_white.png'
+import property from './property.png'
+import quiz from './quiz.png'
+import propertyO from './propertyO.png'
+import employee from './employee.png'
+import ideas from './ideas.png'
+import income from './income.png'
+import jobseekerT from './job-seeker-thin.png'
 
 export {
     css,
@@ -79,5 +89,15 @@ export {
     gcp,
     postman,
     supabase,
-    tlk
+    house,
+    stats,
+    jobseeker,
+    jobseekerW,
+    property,
+    quiz,
+    propertyO,
+    employee,
+    ideas,
+    income,
+    jobseekerT
 }

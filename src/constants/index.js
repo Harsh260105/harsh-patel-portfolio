@@ -1,144 +1,108 @@
-import { meta, shopify, starbucks, tesla, sparks, teachnook } from "../assets/images";
-import {
-    car,
-    contact,
-    css,
-    estate,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
-    pricewise,
-    react,
-    redux,
-    sass,
-    snapgram,
-    summiz,
-    tailwindcss,
-    threads,
-    typescript,
-    c,
-    cpp,
-    python,
-    java,
-    news,
-    instagram,
-    sql,
-    aws,
-    gcp,
-    postman,
-    supabase,
-    tlk
-} from "../assets/icons";
+import { meta, shopify, starbucks, tesla, sparks, teachnook, tlk } from "../assets/images";
+
+import * as icons from "../assets/icons";
 
 export const skills = [
     // Languages
     {
-        imageUrl: c,
+        imageUrl: icons.c,
         name: "C",
         type: "Language",
     },
     {
-        imageUrl: cpp,
+        imageUrl: icons.cpp,
         name: "C++",
         type: "Language",
     },
     {
-        imageUrl: python,
+        imageUrl: icons.python,
         name: "Python",
         type: "Language",
     },
     {
-        imageUrl: sql,
+        imageUrl: icons.sql,
         name: "SQL",
         type: "Language",
     },
 
     // Frontend
     {
-        imageUrl: javascript,
+        imageUrl: icons.javascript,
         name: "JavaScript",
         type: "Frontend",
     },
     {
-        imageUrl: typescript,
+        imageUrl: icons.typescript,
         name: "TypeScript",
         type: "Frontend",
     },
     {
-        imageUrl: react,
+        imageUrl: icons.react,
         name: "React.js",
         type: "Frontend",
     },
     {
-        imageUrl: nextjs,
+        imageUrl: icons.nextjs,
         name: "Next.js",
         type: "Frontend",
     },
     {
-        imageUrl: tailwindcss,
+        imageUrl: icons.tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
     {
-        imageUrl: redux,
+        imageUrl: icons.redux,
         name: "Redux",
         type: "Frontend",
     },
 
     // Backend & Databases
     {
-        imageUrl: nodejs,
+        imageUrl: icons.nodejs,
         name: "Node.js",
         type: "Backend",
     },
     {
-        imageUrl: express,
+        imageUrl: icons.express,
         name: "Express.js",
         type: "Backend",
     },
     {
-        imageUrl: mongodb,
+        imageUrl: icons.mongodb,
         name: "MongoDB",
         type: "Backend",
     },
     {
-        imageUrl: supabase,
+        imageUrl: icons.supabase,
         name: "Supabase",
         type: "Backend",
     },
 
     // Tools and Technologies
     {
-        imageUrl: git,
+        imageUrl: icons.git,
         name: "Git",
         type: "Tools",
     },
     {
-        imageUrl: github,
+        imageUrl: icons.github,
         name: "GitHub",
         type: "Tools",
     },
     // You'll need to add these icons in assets
     {
-        imageUrl: aws,
+        imageUrl: icons.aws,
         name: "AWS",
         type: "Tools",
     },
     {
-        imageUrl: gcp,
+        imageUrl: icons.gcp,
         name: "GCP",
         type: "Tools",
     },
     {
-        imageUrl: postman,
+        imageUrl: icons.postman,
         name: "Postman",
         type: "Tools",
     },
@@ -187,29 +151,29 @@ export const experiences = [
 export const socialLinks = [
     {
         name: 'Contact',
-        iconUrl: contact,
+        iconUrl: icons.contact,
         link: 'tel:+919723247551',
     },
     {
         name: 'GitHub',
-        iconUrl: github,
+        iconUrl: icons.github,
         link: 'https://github.com/Harsh260105',
     },
     {
         name: 'LinkedIn',
-        iconUrl: linkedin,
+        iconUrl: icons.linkedin,
         link: 'https://www.linkedin.com/in/harsh-patel-b85303256/',
     },
     {
         name: 'Instagram',
-        iconUrl: instagram,
+        iconUrl: icons.instagram,
         link: 'https://www.instagram.com/harsh_patel_0265/',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: summiz,
+        iconUrl: icons.stats,
         theme: 'btn-back-red',
         name: 'FinWise',
         techStack: "Next.js, Supabase, Prisma ORM, Gemini API, Custom AI Models, Clerk, Node.js, Express.js, MongoDB",
@@ -223,7 +187,7 @@ export const projects = [
         link: 'https://github.com/Harsh260105/FinWise',
     },
     {
-        iconUrl: threads,
+        iconUrl: icons.propertyO,
         theme: 'btn-back-green',
         name: 'Urban Axis',
         techStack: "MERN Stack (MongoDB, Express.js, React.js, Node.js), React Router, Context API, Tailwind CSS, JWT, Cloudinary, Socket.io",
@@ -237,7 +201,7 @@ export const projects = [
         link: 'https://github.com/Harsh260105/Urban-Axis',
     },
     {
-        iconUrl: news,
+        iconUrl: icons.jobseekerT,
         theme: 'btn-back-blue',
         name: 'Engineers Depot',
         techStack: " MongoDB, Express.js, React.js, Node.js with JWT Auth, Tailwind CSS, Cloudinary",
@@ -251,7 +215,7 @@ export const projects = [
         link: 'https://github.com/Harsh260105/Engineers-Depot',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: icons.quiz,
         theme: 'btn-back-pink',
         name: 'ZapQuiz',
         techStack: "Node.js, Express, PostgreSQL, Prisma, Redis, Google Gemini API, Docker, Render",
@@ -265,7 +229,7 @@ export const projects = [
         link: 'https://github.com/Harsh260105/AiQuizzer',
     },
     // {
-    //     iconUrl: estate,
+    //     iconUrl: icons.estate,
     //     theme: 'btn-back-yellow',
     //     name: 'A Lite Message Encoder',
     //     techStack: "HTML, CSS, JavaScript, Bootstrap",

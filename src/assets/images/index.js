@@ -6,6 +6,7 @@ import tesla from './tesla.png'
 import logo from './logo.svg'
 import sparks from './sparks.svg'
 import teachnook from './teachnook.png'
+import tlk from './tlk.png'
 
 export {
     hero,
@@ -16,4 +17,5 @@ export {
     logo,
     sparks,
     teachnook,
+    tlk
 }
