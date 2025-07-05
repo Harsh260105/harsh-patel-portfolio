@@ -189,7 +189,7 @@ const About = () => {
 
         <hr className="border-slate-300" />
 
-        <CTA />
+        <CTA variant="about" />
       </section>
     </PageTransition>
   );

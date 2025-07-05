@@ -84,7 +84,7 @@ const Projects = () => {
 
         <hr className="border-slate-300 dark:border-gray-700" />
 
-        <CTA />
+        <CTA variant="projects" />
       </section>
     </PageTransition>
   );
