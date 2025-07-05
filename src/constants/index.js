@@ -162,7 +162,7 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: icons.linkedin,
-        link: 'https://www.linkedin.com/in/harsh-patel-b85303256/',
+        link: 'https://www.linkedin.com/in/harshpatel2601/',
     },
     {
         name: 'Instagram',
